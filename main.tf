@@ -1,4 +1,4 @@
-resource "aws_instance" "my_test_vm" {
+resource "aws_instance" "my_test_vm_1" {
   ami           = var.ami //Ubuntu AMI
   instance_type = var.instance_type
 
